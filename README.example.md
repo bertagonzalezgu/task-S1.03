@@ -1,17 +1,9 @@
-# Your Project Name
+# First Vanilla Project
 
-> Replace this title with your project name
 
 ## Description
 
-Brief description of your web layout project. Explain what it does, what it's for, and what problem it solves.
-
-**Example:** This project is a landing page for a fictional coffee shop. It includes menu sections, gallery, and contact form.
-
-## Preview
-
-<!-- Add a screenshot or GIF of your project here -->
-![Project preview](path/to/your/screenshot.png)
+Simple website for practicing semantic tags and structure.
 
 ## Project Structure
 
@@ -33,28 +25,13 @@ This project has a particular git branching strategy, so eachiteration should be
 ```
 /
 └── main
-    └── develop
-        ├── vainilla-iteration 
-            ├── feature/navbar
-            ├── feature/footer
-            ├── feature/form
-            ├── feature/desktop-styling
-            └── feature/...
-        ├── sass-iteration
-            └── feature/...
-        └── tailwind-iteration               // Remember to use npm o pnpm to develop easy and faster in this iteration. Also remember add to the .gitignore the node-modules folder
-            └── feature/...
+    └── vainilla-iteration  
 
 ```
-## BECAREFUL!
-From this section of the readme you shuld to write in base on the tecnology context selected.
-
 ## Technologies Used
 
 - **HTML5** - Semantic structure
 - **CSS3** - Styles and responsive design
-- **Tailwind** - Styling library (just add this )
-- **GitHub Pages** (optional) - Deployment
 
 ## Installation and Execution
 
@@ -80,28 +57,3 @@ cd your-repository
    - Option 1: Double-click on `index.html`
    - Option 2: Use Live Server in VS Code (recommended)
 
-### Using Live Server in VS Code (recommended)
-
-1. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
-## Usage
-
-Customize the project by editing:
-- `index.html` - Modify content and structure
-- `src/css/style.css` - Change styles and colors
-- `src/assets/` - Add your own images and icons
-
-## Contributors
-
-- **Your Name** - [Your GitHub](https://github.com/your-username)
-- _Add other contributors here if any_
-
-## License
-
-This project is under the MIT License - see the [LICENSE](LICENSE) file for more details.
-
----
-
-If you liked this project, give it a star on GitHub
